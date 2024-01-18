@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="shortcut icon" href="./img/Logo-DG.png" type="image/x-icon">
+
+    <title>CV David Guerrero</title>
+</head>
+
+<body>
+    <!--* SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <a href="#inicio">
+                        <img src="img/Logo-DG.png" alt="" width="80">
+                    </a>
+
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#skills" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                    <div class="nav-redes">
+                        <a href="https://www.linkedin.com/in/daferguerrero/" target="_blank" rel="noopener noreferrrer">
+                            <!-- <i class="bi bi-linkedin"></i> -->
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/daferguerrero" target="_blank" rel="noopener noreferrrer">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="mailto:dafer.guerrero@gmail.com" target="_blank" rel="noopener noreferrrer">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <h1>David Fernando Guerrero Vanegas</h1>
+                <span>Ingeniero de Sistemas</span>
+                <p class="descripcion">Desarrollo sitios y aplicaciones web.<br>
+                    Creo tutoriales en video con contenido educativo sobre programación y tecnología.</p>
+                <p class="bienvenida">Bienvenidos</p>
+                <br><br>
+                <a href="#portfolio">Ir a Portafolio</a>
+
+                <div class="nav-redes-2">
+                    <a href="https://www.linkedin.com/in/daferguerrero/" target="_blank" rel="noopener noreferrrer">
+                        <!-- <i class="bi bi-linkedin"></i> -->
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/daferguerrero" target="_blank" rel="noopener noreferrrer">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="mailto:dafer.guerrero@gmail.com" target="_blank" rel="noopener noreferrrer">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--* SECCION SOBREMI -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/Foto.jpg" alt="Mi fotografía">
+        </div>
+        <div class="sobremi">
+            <h3 class="titulo-seccion">Sobre Mi</>
+            <h2>Hola, Soy <span>David Guerrero</span> </h2>
+            <h4>Ingeniero de Sistemas</h4>
+            <h4>Especialista en entornos virtuales de aprendizaje</h3>
+            <h4>Estudiante de Maestría en Ingeniería de Software</h4>
+            <br>
+            <!-- <p>Ingeniero de Sistemas, Especialista en Entornos Virtuales de Aprendizaje y Estudiante de Maestría en Ingeniería de Software.</p> -->
+            <p>Tengo una visión completa de la informática moderna, lo cual me permite convertirme en motor de cambio en cualquier organización en la que me desempeñe. Soy capaz de moverme con facilidad en los aspectos teóricos y prácticos de la nueva Ingeniería de Sistemas y puedo valerme de ella como herramienta para proponer e implementar soluciones efectivas a los innumerables problemas que enfrenta nuestra sociedad.</p>
+            <p>Hábil en circunstancias exigentes, puedo interactuar con otras disciplinas poniendo a disposición todos los conocimientos teóricos y prácticos de su medio para facilitar las tareas, apoyándome en la tecnología disponible y proyectándome siempre en la consecución de objetivos tanto individuales como colectivos.</p>
+            <a href="./pdf/HOJA DE VIDA_con_Soportes_opt.pdf" download="">Descargar HV</a>
+        </div>
+    </section>
+
+    <!--* SECCION HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3 class="titulo-seccion">HABILIDADES </h3>
+
+        <div class="skill">
+            <div class="fila">
+                <div class="col">
+                    <!-- <h3>BASES DE DATOS</h3> -->
+                    <img src="./img/logos/logo-postgres.png" alt="" height="80">
+                </div>
+                <div class="col">
+                    <!-- <h3>DESARROLLO WEB</h3> -->
+                    <img src="./img/logos/logo-html.png" alt="" height="80">
+                    <img src="./img/logos/logo-css3.png" alt="" height="80">
+                    <img src="./img/logos/logo-js.png" alt="" height="80">
+                </div>
+
+                <div class="col">
+                    <!-- <h3>FRAMEWORKS</h3> -->
+                    <img src="./img/logos/logo-angular-js.png" alt="" width="170">
+                    <img src="./img/logos/logo-node-js.png" alt="" width="170">
+
+                </div>
+                <div class="col">
+                    <!-- <h3>SOFTWARE</h3> -->
+                    <img src="./img//logos/logo-xampp.png" alt="" width="150">
+                    <img src="./img/logos/logo-figma.png" alt="" height="60">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--* SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Web Site "Blueprint Restaurante"</h4>
+                    <a href="https://daferguerrero.github.io/-Blueprint-Restaurante/" target="_blank" rel="noopener noreferrrer">Ver demo</a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Landing Page "Web Coca-Cola"</h4>
+                    <a href="https://daferguerrero.github.io/webcocacola/" target="_blank" rel="noopener noreferrrer">Ver demo</a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Landing Page "Desarrollo Web"</h4>
+                    <a href="https://daferguerrero.github.io/landing-page-desarrollo-web/" target="_blank" rel="noopener noreferrrer">Ver demo</a>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto: Bienvenido a mi sitio web</h4>
+                    <a href="https://daferguerrero.github.io/dise-o-web-basico/" target="_blank" rel="noopener noreferrrer">Ver demo</a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Portafolio personal</h4>
+                    <a href="https://daferguerrero.github.io/portafolio-con-bootstrap/" target="_blank" rel="noopener noreferrrer">Ver demo</a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Blog sobre HTML y CSS esencial</h4>
+                    <a href="https://daferguerrero.github.io/html-y-css-esencial/" target="_blank" rel="noopener noreferrrer">Ver demo</a>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>My Order Now - App</h4>
+                    <a href="https://daferguerrero.github.io/MyOrderNow/" target="_blank" rel="noopener noreferrrer">Ver demo</a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Juego Piedra, Papel o tijera</h4>
+                    <a href="https://daferguerrero.github.io/juego-piedra-papel-tijera/" target="_blank" rel="noopener noreferrrer">Ver demo</a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Juego preguntas cultura general</h4>
+                    <a href="https://daferguerrero.github.io/juego-preguntas-respuestas/" target="_blank" rel="noopener noreferrrer">Ver demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--* SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <!-- <div class="contenedor-contacto"> -->
+            <div class="contenedor-contacto contenido-seccion">
+                <!-- <h3 class="titulo-seccion">Contacto</h3> -->
+                <h4>Hablemos..!</h4>
+                <p>Juntos, llevaremos tu visión a la realidad digital.<br>
+                Contáctame ahora para comenzar tu emocionante viaje hacia un sitio web impactante y funcional que destaque en la web.
+                </p>
+
+                <div class="fila">
+                    <div class="col">
+                        <a href="https://wa.me/3108764145" target="_blank" rel="noopener noreferrrer">
+                            <span class="info-contacto">
+                                <i class="fa-brands fa-whatsapp"></i> (+57) 3108764145
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="mailto:dafer_guerrero@hotmail.com" target="_blank" rel="noopener noreferrrer">
+                            <span class="info-contacto">
+                                <i class="fa-regular fa-envelope"></i> dafer_guerrero@hotmail.com
+                            </span>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <span class="info-contacto">
+                            <i class="fa-solid fa-globe"></i> www.davidguerrero.com.co
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+
+    <!--* SECCION FOOTER -->
+    <footer class="footer">
+        <img class="footer-logo" src="./img/Logo-DG.png" alt="logo del portafolio">
+        <p class="footer-texto text-center">Aprendo y creo todos los días. <br>Creemos un proyecto juntos.</p>
+        <div class="redes">
+            <a href="https://twitter.com/dafer_guerrero" target="_blank" rel="noopener noreferrrer">
+                <i class="fa-brands fa-twitter"></i>
+                <!-- <i class="bi bi-twitter"></i> -->
+            </a>
+            <a href="https://facebook.com/david.f.guerrero.v" target="_blank" rel="noopener noreferrrer">
+                <i class="fa-brands fa-facebook"></i>
+                <!-- <i class="bi bi-facebook"></i> -->
+            </a>
+            <a href="https://instagram.com/dafer.guerrero" target="_blank" rel="noopener noreferrrer">
+                <i class="fa-brands fa-instagram-square"></i>
+                <!-- <i class="bi bi-instagram"></i> -->
+            </a>
+            <a href="https://www.youtube.com/channel/UCQ0JUJeH6tVyGYsT0zK8jOw" target="_blank" rel="noopener noreferrrer">
+                <i class="fa-brands fa-youtube"></i>
+                <!-- <i class="bi bi-youtube"></i> -->
+            </a>
+            <!-- <a href="mailto:jhondoe@micorreo.com" target="_blank" rel="noopener noreferrrer">
+                <i class="bi bi-envelope"></i>
+            </a> -->
+        </div>
+        <p class="derechos-de-autor">Creado por David Guerrero - Todos los derechos reservados <i class="far fa-copyright"></i> 2024</p>
+    </footer>
+    <!-- Bootstrap -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script> -->
+    <script src="script.js"></script>
+</body>
+
+</html>
