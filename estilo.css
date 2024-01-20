@@ -283,18 +283,57 @@ html {
 } */
 
 .contenedor-skills .skill {
+    display: inline-flex;
     width: 100%;
-    margin: 30px auto;
+    /* justify-content: center; */
 }
 
 .contenedor-skills .skill .fila {
+    width: 100%;
     display: flex;
+    /* justify-content: space-between; */
     justify-content: space-around;
+    margin: 30px 0;
     padding: 0;
 }
 
+.contenedor-skills .skill .fila:first-child {
+    border-right: 2px solid var(--bg-3-color)
+}
+
 .contenedor-skills .skill .fila .col {
+    width: 50%;
+    padding: 0px 20px;
     margin-top: 30px;
+    /* position: relative; */
+}
+
+.contenedor-skills .skill .fila .col h4 {
+    color: var(--bg-2-color);
+    font-size: 0.8rem;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+}
+
+.contenedor-skills .skill .fila .col ul {
+    margin-top: 60px;
+}
+
+.contenedor-skills .skill .fila .col ul li {
+    list-style: none;
+    color: var(--bg-2-color);
+    font-size: 0.8rem;
+    text-align: initial;
+    /* align-items: center; */
+    margin: 16px 0;
+    /* font-weight: bold; */
+}
+
+.contenedor-skills .skill .fila .col ul li i {
+    color: var(--first-color);
+    padding-right: 5px;
+
 }
 
 
@@ -662,26 +701,8 @@ html {
         line-height: 12px;
     }
 
-    /** SECCION CURRICULUM **/
-    .curriculum .fila {
-        display: block;
-    }
-
-    .curriculum .fila .col {
-        width: 90%;
-    }
-
-    .curriculum .fila .derecha {
-        margin-left: 20px;
-    }
 
 
-/** SECCION HABILIDAES **/
-
-    .contenedor-skills .skill .fila .col img {
-        height: 30px;
-        width: auto;
-    }
 
 
     /** SECCION SOBRE MI **/
@@ -705,24 +726,33 @@ html {
     }
 
 
-    /** SECCION MIS SERVICIOS **/
-    #servicios {
-        padding: 50px 15px;
+    /** SECCION HABLIDADES **/
+    .contenedor-skills {
+        padding: 0;
+        font-size: 1rem;
     }
 
-    #servicios .fila {
+    .contenedor-skills .skill .fila {
         display: block;
     }
 
-    #servicios .fila .servicio {
-        margin: 10px auto;
+    .contenedor-skills .skill .fila .col {
+        width: 100%;
+    }
+
+    .contenedor-skills .skill .fila .col h4 {
+        display: none;
+    }
+
+    .contenedor-skills .skill .fila .col ul {
+        margin: -20px;
+    }
+
+    .contenedor-skills .skill .fila .col ul li {
+        margin: 15px;
     }
 
 
-    /** SECCION HABLIDADES **/
-    .contenedor-skills {
-        padding: 50px 20px;
-    }
 
 
     /** SECCION PORTFOLIO **/
